@@ -1,0 +1,22 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+.Header{
+    display: flex;
+
+    
+}
+.Header_logo{
+    width: 10%;
+}
+.Header_logo-img{
+    width: 100%;
+}
+.Header_menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
