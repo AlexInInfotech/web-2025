@@ -1,0 +1,22 @@
+h1{
+    font-size: 120px;
+    font-family: fantasy;
+}
+li, p{
+    font-size: 30px;
+    font-family: fantasy;
+}
+.title{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-photo{
+    width: 70%;
+}
+.main-photo-img{
+    width: 100%;
+}
