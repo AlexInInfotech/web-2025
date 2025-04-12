@@ -1,5 +1,4 @@
 <?php
-// Enter your code here, enjoy!
 declare(strict_types=1);
 
 //$text = $_GET['text'];
