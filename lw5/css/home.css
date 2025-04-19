@@ -1,0 +1,46 @@
+p {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.profile {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.also {
+    border: none;
+    background-color: white;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+    padding: 0;
+
+}
+
+.time {
+    font-size: 14px;
+    color: #22222280;
+
+}
+
+.likes {
+    border-radius: 8px;
+    width: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
