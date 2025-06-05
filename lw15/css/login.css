@@ -80,9 +80,13 @@ p {
 .password-button {
     border: none;
     background-color: rgba(255, 255, 255, 0);
+    right:0;
+}
+.password__container {
+    position: relative;
 }
 .password-button-wrapper{
     position: absolute;
+    right: 0;
     margin-top: -35px;
-    float: right;
 }
