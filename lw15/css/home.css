@@ -1,0 +1,85 @@
+p {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.menu {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+}
+.profile__name {
+    font-weight: 500;
+    font-size: 14px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 474px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.post__image,  .post__image-wrapper{
+    width: 100%;
+}
+.post__profile {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.post__head {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+.post__also-button {
+    border: none;
+    background-color: white;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+    padding: 0;
+
+}
+
+.post__time {
+    font-size: 14px;
+    color: #22222280;
+
+}
+
+.post__likes {
+    border-radius: 8px;
+    width: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+.post__likes :hover{
+    color: #740000;
+    background-color: #EF53530D;
+    border: 1px;
+    border-color: #FF000030;
+}
